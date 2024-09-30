@@ -9,7 +9,7 @@ md_base_dir: ./
 output_dir: ./doc
 source: true
 incl_src: true
-graph: false
+graph: true
 search: true
 display: public
          private
