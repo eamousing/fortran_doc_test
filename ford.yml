@@ -1,0 +1,16 @@
+project: fortran_doc_test
+summary: A repository for testing Fortran documentation workflow using FORD
+version: 0.1
+project_github: https://github.com/eamousing/fortran_doc_test
+author: Erik A. Mousing
+github: https://github.com/eamousing
+src_dir: ./src
+md_base_dir: ./
+output_dir: ./doc
+source: true
+incl_src: true
+graph: false
+search: true
+display: public
+         private
+         protected
