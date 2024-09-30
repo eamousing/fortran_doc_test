@@ -12,4 +12,12 @@ contains
         b = a + 2.0
     end function add_two
 
+    function mul_two(a) result(b)
+        !! Another important function that multiplies any real by 2.
+        real, intent(in) :: a
+        real :: b
+
+        b = 2*a
+    end function mul_two
+
 end module math
